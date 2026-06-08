@@ -4,62 +4,6 @@
 
 /* ---- Sample Product Data ---- */
 const defaultProducts = [
-  {
-    id: 1, name: 'Bàn Thờ Gỗ Hương Chạm Khắc Rồng Phượng',
-    category: 'ban-tho', catLabel: 'Bàn Thờ',
-    price: 12500000, priceSale: 9800000,
-    icon: 'fa-torii-gate', badge: 'HOT', badgeType: 'hot',
-    rating: 5, reviews: 128, color: 'linear-gradient(135deg,#2a1206,#7a3f1e)'
-  },
-  {
-    id: 2, name: 'Tủ Thờ Gỗ Mít Nguyên Khối Cao Cấp',
-    category: 'ban-tho', catLabel: 'Tủ Thờ',
-    price: 18000000, priceSale: 15500000,
-    icon: 'fa-cabinet-filing', badge: 'SALE', badgeType: 'sale',
-    rating: 5, reviews: 84, color: 'linear-gradient(135deg,#3d1a00,#7a3400)'
-  },
-  {
-    id: 3, name: 'Bộ Đồ Thờ Đồng Bát Tràng 5 Món',
-    category: 'do-tho', catLabel: 'Đồ Thờ',
-    price: 4500000, priceSale: 3800000,
-    icon: 'fa-fire', badge: 'HOT', badgeType: 'hot',
-    rating: 4, reviews: 215, color: 'linear-gradient(135deg,#2a1800,#6b4000)'
-  },
-  {
-    id: 4, name: 'Tượng Quan Công Đồng Đúc Cao 60cm',
-    category: 'tuong', catLabel: 'Tượng',
-    price: 7800000, priceSale: 6500000,
-    icon: 'fa-yin-yang', badge: 'NEW', badgeType: 'new',
-    rating: 5, reviews: 67, color: 'linear-gradient(135deg,#0d1a3d,#1e3a8a)'
-  },
-  {
-    id: 5, name: 'Bàn Thờ Thần Tài Gỗ Tự Nhiên Mini',
-    category: 'ban-tho', catLabel: 'Bàn Thờ Thần Tài',
-    price: 2800000, priceSale: 2200000,
-    icon: 'fa-coins', badge: 'SALE', badgeType: 'sale',
-    rating: 4, reviews: 342, color: 'linear-gradient(135deg,#4d0000,#8b1a1a)'
-  },
-  {
-    id: 6, name: 'Lư Hương Đồng Cổ Điển Trơn 30cm',
-    category: 'phu-kien', catLabel: 'Phụ Kiện',
-    price: 1800000, priceSale: 1500000,
-    icon: 'fa-smog', badge: null, badgeType: null,
-    rating: 4, reviews: 189, color: 'linear-gradient(135deg,#2d1a00,#7a4a00)'
-  },
-  {
-    id: 7, name: 'Tranh Trúc Chỉ Thư Pháp "Phúc Lộc Thọ"',
-    category: 'phu-kien', catLabel: 'Tranh Trúc Chỉ',
-    price: 1200000, priceSale: 950000,
-    icon: 'fa-scroll', badge: 'NEW', badgeType: 'new',
-    rating: 5, reviews: 56, color: 'linear-gradient(135deg,#0a2a0a,#1a5c1a)'
-  },
-  {
-    id: 8, name: 'Đèn Thờ Điện Nghệ Thuật Phong Cách Cổ',
-    category: 'phu-kien', catLabel: 'Đèn Thờ',
-    price: 3200000, priceSale: 2700000,
-    icon: 'fa-lightbulb', badge: 'HOT', badgeType: 'hot',
-    rating: 4, reviews: 93, color: 'linear-gradient(135deg,#1a0a00,#4d2000)'
-  }
 ];
 
 /* ---- State ---- */
